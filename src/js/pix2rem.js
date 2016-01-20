@@ -53,7 +53,11 @@
             document.querySelector('html').style.fontSize = mockupW / 10 + 'px';
 
         } else if (isMobile.any()) {
-            document.querySelector('html').style.fontSize = screenW / 10 + 'px';
+            if (screenW / 10 > 70) {//Mobile QQ 
+                document.querySelector('html').style.fontSize = screenW / dpr / 10 + 'px';
+            }else{
+                document.querySelector('html').style.fontSize = screenW / 10 + 'px';
+            }
 
         } else {
             if (window.innerWidth <= mockupW) {
