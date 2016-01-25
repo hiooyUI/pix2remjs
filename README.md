@@ -10,3 +10,7 @@ Use Crunt in Command line, run ```npm install``` and ```grunt``` Grunt环境命�
 npm install
 grunt
 ```
+Showcase 谁在用
+----------------------------------------------
+
+[海印优选](http://wx.hiooy.com/wap)
